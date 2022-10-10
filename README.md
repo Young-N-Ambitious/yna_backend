@@ -19,7 +19,9 @@ To install this project:
 * [MIT LICENSE](https://opensource.org/licenses/MIT)
 
 ## Join The YNA Community To Contribute: ##
+* [Contributing Doc](https://github.com/Young-N-Ambitious/yna_backend/blob/main/CONTRIBUTING.md)
 * [Member Application](https://docs.google.com/forms/d/e/1FAIpQLSfEHpF9H3U9yCzmUPEiac637mECOzXAqrr9AXuxuz48KUd1pQ/viewform)
+
 
 
 
