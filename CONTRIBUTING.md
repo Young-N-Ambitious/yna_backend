@@ -38,12 +38,12 @@ Hacktoberfest, look for issues labeled
       3. Clone the project to your local terminal by running git clone
          `git@github.com:{YOUR_GITHUB_USERNAME}/yna_backend.git`
       4. cd into the YNA backend directory by running `cd yna_backend`
-      5. Now run `npm install` to install all of the project dependencies.
+      5. Now run `bundle install` to install all of the project dependencies.
    2. Now that you are inside the backend directory, you need to create a
       branch.
       1. To create a branch run: git checkout -b
-         FD-[#<issue_number>]<commit_type>-<description/name>
-         - **Example branch name: FD-0001(docs)-updatesreadme**
+         BA-[#<issue_number>]-<description/name>
+         - **Example branch name: BA-001-enable-cors**
          1. The issue number can be found on the title of the issue you were
             assigned.
          2. The commit_types are:
@@ -69,7 +69,7 @@ Hacktoberfest, look for issues labeled
    2. Run `git add .` to add all of the files or `git add <file name>` to add a
       specific file.
    3. Once you know and added what files you want to commit. Commit your changes
-      by running `git commit -m "FD-[#<issue_number>]<commit_type>:description"`
+      by running `git commit -m "BA-[#<issue_number>]<commit_type>:description"`
    4. Push your changes to your forked repo by running
       `git push --set-upstream origin <branch name>`
 2. On Github create a pull request, all pull requests _must_ target the
