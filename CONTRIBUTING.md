@@ -39,9 +39,10 @@ Hacktoberfest, look for issues labeled
          `git@github.com:{YOUR_GITHUB_USERNAME}/yna_backend.git`
       4. cd into the YNA backend directory by running `cd yna_backend`
       5. Now run `bundle install` to install all of the project dependencies.
-   2. Now that you are inside the backend directory, you need to create a
-      branch.
-      1. To create a branch run: git checkout -b
+   2. Now that you are inside the backend directory, you need to create a branch based off the development branch:
+      1.  * Run: `git checkout dev` 
+          * Confirm you are on the dev branch by running `git status` 
+      2.  Create a branch based off the dev branch by running: git checkout -b
          BA-[#<issue_number>]-<description/name>
          - **Example branch name: BA-001-enable-cors**
          1. The issue number can be found on the title of the issue you were
