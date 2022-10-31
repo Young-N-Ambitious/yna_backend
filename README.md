@@ -15,7 +15,7 @@ Setup Your Environment:
 * [Environment Setup](/EnvironmentSetup.md)
 
 To install this project: 
-* create a fork of the application and clone the app to your local environment: `git clone **ssh_key*` copy the ssh_key from above.
+* clone the project to your local terminal by forking the application and cloning the app to your local environment: `git clone **ssh_key*` copy the ssh_key from above.
 * run `bundle install` to install gems/dependencies 
 * run `rails db:migrate` to migrate the database
 * run `rails db:seed` to load seed data if present (optional)
