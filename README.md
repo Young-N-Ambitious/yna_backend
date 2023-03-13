@@ -14,7 +14,7 @@ This is the Rails API application maintaining the data
 
 To execute quickly, without cloning the project to your local machine, run this project in the cloud with Gitpod:
 
-<a href="https://gitpod.io/#<https://github.com/Young-N-Ambitious/yna_backend>">
+<a href="https://gitpod.io/#https://github.com/Young-N-Ambitious/yna_backend">
   <img
     src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
     alt="Contribute with Gitpod"
