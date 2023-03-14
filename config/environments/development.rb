@@ -61,6 +61,8 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
+  # Use for initializing the project in gitpod (the url port will open in browser)
+  config.hosts << "3000-youngnambiti-ynabackend-1zn9im5fism.ws-us90.gitpod.io"
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 end
