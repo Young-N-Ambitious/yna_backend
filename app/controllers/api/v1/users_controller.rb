@@ -37,8 +37,10 @@ class Api::V1::UsersController < ApplicationController
     private
     
     def user_params
-        params.require(:user).permit(:email, :password)
-    end
-      
-      
+        if action_name == "create"
+            params.require(:user).permit(:email, :password)
+          elsif action_name == "update"
+            params.require(:user).permit(:first_name, :last_name, :user_bio, :pronouns, :industry_title, :linked_in_url, :twitter_url, :portfolio_url, :profile_photo)
+        end
+    end     
 end
