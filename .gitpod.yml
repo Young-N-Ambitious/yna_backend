@@ -11,5 +11,7 @@ tasks:
 ports:
   - port: 3000
     onOpen: open-browser
+    name: API
+    description: The main application web server
     visibility: public
 
