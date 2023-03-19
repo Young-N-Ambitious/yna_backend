@@ -5,3 +5,186 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+users = User.create([
+    {
+    first_name: "John",
+    last_name: "Smith",
+    email: "johnsmith@email.com",
+    pronouns: "he/him/his",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "Software Engineer",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: false,
+    password: "123456"
+
+},
+    {
+    first_name: "Will",
+    last_name: "Clark",
+    email: "willclark@email.com",
+    pronouns: "he/him/his",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "Software Engineer",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: true,
+    password: "123456"
+
+},
+    {
+    first_name: "Olivia",
+    last_name: "Park",
+    email: "oliviapark@email.com",
+    pronouns: "she/her/hers",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "UX/UI",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: false,
+    password: "123456"
+
+},
+    {
+    first_name: "Emma",
+    last_name: "James",
+    email: "emmajames@email.com",
+    pronouns: "she/her/hers",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "UX/UI",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: true,
+    password: "123456"
+
+},
+    {
+    first_name: "Charlotte",
+    last_name: "Davis",
+    email: "charlottedavis@email.com",
+    pronouns: "she/her/hers",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "UX/UI",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: false,
+    password: "123456"
+
+},
+    {
+    first_name: "Amelia",
+    last_name: "Garcia",
+    email: "ameliagarcia@email.com",
+    pronouns: "she/her/hers",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "UX/UI",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: true,
+    password: "123456"
+
+},
+    {
+    first_name: "Elijah",
+    last_name: "Brown",
+    email: "elijahbrown@email.com",
+    pronouns: "he/him/his",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "DevOps Engineer",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: false,
+    password: "123456"
+
+},
+    {
+    first_name: "Lucas",
+    last_name: "Marinez",
+    email: "lucasmartinez@email.com",
+    pronouns: "he/him/his",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "ML Engineer",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: false,
+    password: "123456"
+
+},
+    {
+    first_name: "Noah",
+    last_name: "Taylor",
+    email: "noahtaylor@email.com",
+    pronouns: "he/him/his",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "UX/UI",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: false,
+    password: "123456"
+
+},
+    {
+    first_name: "James",
+    last_name: "Moore",
+    email: "jamesmoore@email.com",
+    pronouns: "he/him/his",
+    linked_in_url: "https://www.linkedin.com",
+    twitter_url: "https://twitter.com",
+    portfolio_url: "http://www.portfolio.com",
+    industry_title: "UX/UI",
+    profile_photo: "http://www.picture.com",
+    user_bio: "Personal biography",
+    member: true,
+    founder: false,
+    ceo: false,
+    featured_member: false,
+    password: "123456"
+
+}
+])
