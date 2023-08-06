@@ -5,7 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+roles = Role.create([
+  { name: 'founder' },
+  { name: 'ceo' },
+  { name: 'admin' },
+  { name: 'member' },
+  { name: 'featured_member' }
+])
 users = User.create([
     {
     first_name: "John",
@@ -188,3 +194,10 @@ users = User.create([
 
 }
 ])
+
+users.each do |user|
+    user.roles << Role.find_by(name: 'member')
+    user.roles << Role.find_by(name: 'founder') if user.founder?
+    user.roles << Role.find_by(name: 'ceo') if user.ceo?
+    user.roles << Role.find_by(name: 'featured_member') if user.featured_member?
+end 
