@@ -4,17 +4,14 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   
-  rolify role_cname: 'Role'
-  
   #Associations
-  has_many :user_roles, dependent: :destroy
-  has_many :roles, through: :user_roles
+  has_and_belongs_to_many :roles, join_table: :users_roles
 
   #Validations
-  validates :first_name, :last_name, :pronouns, :linked_in_url, :twitter_url, :portfolio_url, :industry_title, :profile_photo, :user_bio, presence: true
-  validates :email, uniqueness: true
-  validates :password, length: { minimum: 8 }
-  has_one_attached :profile_photo
+  # validates :first_name, :last_name, :pronouns, :linked_in_url, :twitter_url, :portfolio_url, :industry_title, :profile_photo, :user_bio, presence: true
+  # validates :email, uniqueness: true
+  # validates :password, length: { minimum: 8 }
+  #has_one_attached :profile_photo
 
   before_validation :assign_default_role
 
