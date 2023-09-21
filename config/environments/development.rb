@@ -65,8 +65,8 @@ Rails.application.configure do
   # Will need to replace the below URL with your generated url from your workspace
   # type ```gp ports list``` in your terminal to list your port URL
   # config.hosts << "3000-youngnambiti-ynabackend-1zn9im5fism.ws-us90.gitpod.io"
-  #  config.hosts << "3000-youngnambiti-ynabackend-fh3m51y90l3.ws-us90.gitpod.io"
-   config.hosts << "3000-youngnambiti-ynabackend-zg8nc89nhmm.ws-us102.gitpod.io"
+   config.hosts << "3000-youngnambiti-ynabackend-fh3m51y90l3.ws-us90.gitpod.io"
+
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 end
